@@ -1,0 +1,126 @@
+---
+title: "Mapping Resources and Examples"
+author: "MA615"
+date: "2020-October-19"
+output:
+  revealjs::revealjs_presentation:
+    theme: solarized
+    highlight: pygments
+    template: hw_temp_1.html
+    css: reveal.css
+    center: false
+    transition: slide
+---
+
+
+```{r setup, include=FALSE}
+library(knitr)
+library(kableExtra)
+library(png)
+library(tidyverse)
+library(grid)
+library(gridExtra) 
+opts_chunk$set(echo = FALSE)
+```
+
+
+
+# Introduction
+
+<h2>Articles, Books, and Blogs</h2>
+
+<div style = "font-size:24px">
+
+<a href = "https://geocompr.robinlovelace.net/">Geocomputation with R</a>
+
+<a href = "https://eriqande.github.io/rep-res-web/lectures/making-maps-with-R.html">Making Maps with R</a>
+
+
+<a href = "https://www.r-spatial.org/r/2018/10/25/ggplot2-sf.html">Drawing beautiful maps programmatically with R, sf and ggplot2</a> which is part of <a href = "https://keen-swartz-3146c4.netlify.app/">Spatial Data Science</a>
+
+<a href = "http://zevross.com/blog/2018/10/02/creating-beautiful-demographic-maps-in-r-with-the-tidycensus-and-tmap-packages/">Demographic maps in R with the tidycensus and tmap packages</a>
+
+<a href = "https://www.storybench.org/plot-state-state-data-map-u-s-r/">Storybench</a>
+
+<a href = "https://cran.r-project.org/web/packages/oce/vignettes/map_projections.html">Choosing Map projections</a>
+
+
+<a href = "https://ggplot2-book.org/">ggplot2: Elegant Graphics for Data Analysis - Chapter 6</a>
+
+<a href = "https://bityl.co/41bo">Chapter 21 Spatial Data in *Data Science with R: A Resource Compendium*</a>
+
+</div>
+
+-----
+
+<h2>Working code</h2>
+
+<div style = "font-size:24px">
+
+<a href = "https://www.r-graph-gallery.com/index.html">The R Graph Gallery</a>
+
+
+<a href = "https://walker-data.com/2017/06/comparing-metros/">From Kyle Walker, the developer of the tidycensus package ...</a>
+
+
+
+<a href = "https://cran.r-project.org/web/packages/oce/vignettes/map_projections.html">Choosing Map projections</a>
+
+
+<h2>Resources</h2>
+
+<a href = "https://stackoverflow.com/">
+<img src="stackoverflow_logo.png" style="display:run-in;" alt="stackoverflow" width="120" height="30"></a>  
+<a href = "https://bityl.co/41XM">ex1</a>, 
+<a href = "https://bityl.co/41XQ">ex2</a>, 
+<a href = "https://bityl.co/41XT">ex3</a>,
+<a href = "https://bityl.co/41Xb">ex4</a>,
+<a href = "https://bityl.co/41Xg">ex5</a>,
+<a href = "https://bityl.co/41Xy">ex6</a>,
+<a href = "https://bityl.co/41Y2">ex7</a>,
+<a href = "https://bityl.co/41YI">ex8</a>,
+<a href = "https://bityl.co/41YR">ex9</a>,
+<a href = "https://bityl.co/41YT">ex10</a>
+
+
+<a href = "https://bityl.co/41Yf">CRAN Task Views</a>,
+
+
+<h2>Google</h2>
+
+<a href="https://rpubs.com/nickbearman/r-google-map-making">R google map making</a>
+
+
+
+-----
+
+<h3>Types of maps</h3>
+
+Static  --   paper, pdf
+
+Interactive  --  presentation, web
+
+
+
+Animated  -- digital delivery
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
